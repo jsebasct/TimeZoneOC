@@ -26,6 +26,7 @@
 
 - (void)testExample
 {
+    NSLog(@"This is a sample test that fails");
     STFail(@"Unit tests are not implemented yet in TimeZonesTests");
 }
 

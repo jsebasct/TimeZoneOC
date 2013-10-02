@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad
 {
+    NSLog(@"Starting with the programs");
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
