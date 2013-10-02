@@ -23,6 +23,7 @@
 		B8FF730517FC346B00F210A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72E017FC346A00F210A3 /* Foundation.framework */; };
 		B8FF730D17FC346B00F210A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8FF730B17FC346B00F210A3 /* InfoPlist.strings */; };
 		B8FF731017FC346B00F210A3 /* TimeZonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */; };
+		B8FF731B17FC3C8800F210A3 /* TimeMachineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF731A17FC3C8800F210A3 /* TimeMachineTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		B8FF730C17FC346B00F210A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8FF730E17FC346B00F210A3 /* TimeZonesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeZonesTests.h; sourceTree = "<group>"; };
 		B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeZonesTests.m; sourceTree = "<group>"; };
+		B8FF731917FC3C8800F210A3 /* TimeMachineTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMachineTest.h; sourceTree = "<group>"; };
+		B8FF731A17FC3C8800F210A3 /* TimeMachineTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMachineTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				B8FF730E17FC346B00F210A3 /* TimeZonesTests.h */,
 				B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */,
 				B8FF730917FC346B00F210A3 /* Supporting Files */,
+				B8FF731917FC3C8800F210A3 /* TimeMachineTest.h */,
+				B8FF731A17FC3C8800F210A3 /* TimeMachineTest.m */,
 			);
 			path = TimeZonesTests;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8FF731017FC346B00F210A3 /* TimeZonesTests.m in Sources */,
+				B8FF731B17FC3C8800F210A3 /* TimeMachineTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
