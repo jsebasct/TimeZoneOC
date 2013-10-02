@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8FF72DF17FC346A00F210A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72DE17FC346A00F210A3 /* UIKit.framework */; };
+		B8FF72E117FC346A00F210A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72E017FC346A00F210A3 /* Foundation.framework */; };
+		B8FF72E317FC346A00F210A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72E217FC346A00F210A3 /* CoreGraphics.framework */; };
+		B8FF72E917FC346A00F210A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8FF72E717FC346A00F210A3 /* InfoPlist.strings */; };
+		B8FF72EB17FC346A00F210A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF72EA17FC346A00F210A3 /* main.m */; };
+		B8FF72EF17FC346A00F210A3 /* TimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF72EE17FC346A00F210A3 /* TimeAppDelegate.m */; };
+		B8FF72F117FC346A00F210A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FF72F017FC346A00F210A3 /* Default.png */; };
+		B8FF72F317FC346A00F210A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FF72F217FC346A00F210A3 /* Default@2x.png */; };
+		B8FF72F517FC346A00F210A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FF72F417FC346A00F210A3 /* Default-568h@2x.png */; };
+		B8FF72F817FC346A00F210A3 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF72F717FC346A00F210A3 /* TimeViewController.m */; };
+		B8FF72FB17FC346A00F210A3 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FF72F917FC346A00F210A3 /* TimeViewController.xib */; };
+		B8FF730317FC346B00F210A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF730217FC346B00F210A3 /* SenTestingKit.framework */; };
+		B8FF730417FC346B00F210A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72DE17FC346A00F210A3 /* UIKit.framework */; };
+		B8FF730517FC346B00F210A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FF72E017FC346A00F210A3 /* Foundation.framework */; };
+		B8FF730D17FC346B00F210A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8FF730B17FC346B00F210A3 /* InfoPlist.strings */; };
+		B8FF731017FC346B00F210A3 /* TimeZonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8FF730617FC346B00F210A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8FF72D317FC346A00F210A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FF72DA17FC346A00F210A3;
+			remoteInfo = TimeZones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8FF72DB17FC346A00F210A3 /* TimeZones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FF72DE17FC346A00F210A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8FF72E017FC346A00F210A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8FF72E217FC346A00F210A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8FF72E617FC346A00F210A3 /* TimeZones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeZones-Info.plist"; sourceTree = "<group>"; };
+		B8FF72E817FC346A00F210A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8FF72EA17FC346A00F210A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8FF72EC17FC346A00F210A3 /* TimeZones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeZones-Prefix.pch"; sourceTree = "<group>"; };
+		B8FF72ED17FC346A00F210A3 /* TimeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAppDelegate.h; sourceTree = "<group>"; };
+		B8FF72EE17FC346A00F210A3 /* TimeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeAppDelegate.m; sourceTree = "<group>"; };
+		B8FF72F017FC346A00F210A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8FF72F217FC346A00F210A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B8FF72F417FC346A00F210A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8FF72F617FC346A00F210A3 /* TimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		B8FF72F717FC346A00F210A3 /* TimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		B8FF72FA17FC346A00F210A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimeViewController.xib; sourceTree = "<group>"; };
+		B8FF730117FC346B00F210A3 /* TimeZonesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZonesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FF730217FC346B00F210A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8FF730A17FC346B00F210A3 /* TimeZonesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeZonesTests-Info.plist"; sourceTree = "<group>"; };
+		B8FF730C17FC346B00F210A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8FF730E17FC346B00F210A3 /* TimeZonesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeZonesTests.h; sourceTree = "<group>"; };
+		B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeZonesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FF72D817FC346A00F210A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF72DF17FC346A00F210A3 /* UIKit.framework in Frameworks */,
+				B8FF72E117FC346A00F210A3 /* Foundation.framework in Frameworks */,
+				B8FF72E317FC346A00F210A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FF72FD17FC346A00F210A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF730317FC346B00F210A3 /* SenTestingKit.framework in Frameworks */,
+				B8FF730417FC346B00F210A3 /* UIKit.framework in Frameworks */,
+				B8FF730517FC346B00F210A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8FF72D217FC346A00F210A3 = {
+			isa = PBXGroup;
+			children = (
+				B8FF72E417FC346A00F210A3 /* TimeZones */,
+				B8FF730817FC346B00F210A3 /* TimeZonesTests */,
+				B8FF72DD17FC346A00F210A3 /* Frameworks */,
+				B8FF72DC17FC346A00F210A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FF72DC17FC346A00F210A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF72DB17FC346A00F210A3 /* TimeZones.app */,
+				B8FF730117FC346B00F210A3 /* TimeZonesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8FF72DD17FC346A00F210A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF72DE17FC346A00F210A3 /* UIKit.framework */,
+				B8FF72E017FC346A00F210A3 /* Foundation.framework */,
+				B8FF72E217FC346A00F210A3 /* CoreGraphics.framework */,
+				B8FF730217FC346B00F210A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8FF72E417FC346A00F210A3 /* TimeZones */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF72ED17FC346A00F210A3 /* TimeAppDelegate.h */,
+				B8FF72EE17FC346A00F210A3 /* TimeAppDelegate.m */,
+				B8FF72F617FC346A00F210A3 /* TimeViewController.h */,
+				B8FF72F717FC346A00F210A3 /* TimeViewController.m */,
+				B8FF72F917FC346A00F210A3 /* TimeViewController.xib */,
+				B8FF72E517FC346A00F210A3 /* Supporting Files */,
+			);
+			path = TimeZones;
+			sourceTree = "<group>";
+		};
+		B8FF72E517FC346A00F210A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF72E617FC346A00F210A3 /* TimeZones-Info.plist */,
+				B8FF72E717FC346A00F210A3 /* InfoPlist.strings */,
+				B8FF72EA17FC346A00F210A3 /* main.m */,
+				B8FF72EC17FC346A00F210A3 /* TimeZones-Prefix.pch */,
+				B8FF72F017FC346A00F210A3 /* Default.png */,
+				B8FF72F217FC346A00F210A3 /* Default@2x.png */,
+				B8FF72F417FC346A00F210A3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8FF730817FC346B00F210A3 /* TimeZonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF730E17FC346B00F210A3 /* TimeZonesTests.h */,
+				B8FF730F17FC346B00F210A3 /* TimeZonesTests.m */,
+				B8FF730917FC346B00F210A3 /* Supporting Files */,
+			);
+			path = TimeZonesTests;
+			sourceTree = "<group>";
+		};
+		B8FF730917FC346B00F210A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF730A17FC346B00F210A3 /* TimeZonesTests-Info.plist */,
+				B8FF730B17FC346B00F210A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FF72DA17FC346A00F210A3 /* TimeZones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FF731317FC346B00F210A3 /* Build configuration list for PBXNativeTarget "TimeZones" */;
+			buildPhases = (
+				B8FF72D717FC346A00F210A3 /* Sources */,
+				B8FF72D817FC346A00F210A3 /* Frameworks */,
+				B8FF72D917FC346A00F210A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeZones;
+			productName = TimeZones;
+			productReference = B8FF72DB17FC346A00F210A3 /* TimeZones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8FF730017FC346A00F210A3 /* TimeZonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FF731617FC346B00F210A3 /* Build configuration list for PBXNativeTarget "TimeZonesTests" */;
+			buildPhases = (
+				B8FF72FC17FC346A00F210A3 /* Sources */,
+				B8FF72FD17FC346A00F210A3 /* Frameworks */,
+				B8FF72FE17FC346A00F210A3 /* Resources */,
+				B8FF72FF17FC346A00F210A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8FF730717FC346B00F210A3 /* PBXTargetDependency */,
+			);
+			name = TimeZonesTests;
+			productName = TimeZonesTests;
+			productReference = B8FF730117FC346B00F210A3 /* TimeZonesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FF72D317FC346A00F210A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Time;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = PeopleSoft;
+			};
+			buildConfigurationList = B8FF72D617FC346A00F210A3 /* Build configuration list for PBXProject "TimeZones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8FF72D217FC346A00F210A3;
+			productRefGroup = B8FF72DC17FC346A00F210A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FF72DA17FC346A00F210A3 /* TimeZones */,
+				B8FF730017FC346A00F210A3 /* TimeZonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8FF72D917FC346A00F210A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF72E917FC346A00F210A3 /* InfoPlist.strings in Resources */,
+				B8FF72F117FC346A00F210A3 /* Default.png in Resources */,
+				B8FF72F317FC346A00F210A3 /* Default@2x.png in Resources */,
+				B8FF72F517FC346A00F210A3 /* Default-568h@2x.png in Resources */,
+				B8FF72FB17FC346A00F210A3 /* TimeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FF72FE17FC346A00F210A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF730D17FC346B00F210A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8FF72FF17FC346A00F210A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FF72D717FC346A00F210A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF72EB17FC346A00F210A3 /* main.m in Sources */,
+				B8FF72EF17FC346A00F210A3 /* TimeAppDelegate.m in Sources */,
+				B8FF72F817FC346A00F210A3 /* TimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FF72FC17FC346A00F210A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF731017FC346B00F210A3 /* TimeZonesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8FF730717FC346B00F210A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8FF72DA17FC346A00F210A3 /* TimeZones */;
+			targetProxy = B8FF730617FC346B00F210A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8FF72E717FC346A00F210A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FF72E817FC346A00F210A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8FF72F917FC346A00F210A3 /* TimeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FF72FA17FC346A00F210A3 /* en */,
+			);
+			name = TimeViewController.xib;
+			sourceTree = "<group>";
+		};
+		B8FF730B17FC346B00F210A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FF730C17FC346B00F210A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8FF731117FC346B00F210A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8FF731217FC346B00F210A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8FF731417FC346B00F210A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZones/TimeZones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8FF731517FC346B00F210A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZones/TimeZones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8FF731717FC346B00F210A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeZones.app/TimeZones";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZonesTests/TimeZonesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B8FF731817FC346B00F210A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeZones.app/TimeZones";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeZones/TimeZones-Prefix.pch";
+				INFOPLIST_FILE = "TimeZonesTests/TimeZonesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FF72D617FC346A00F210A3 /* Build configuration list for PBXProject "TimeZones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FF731117FC346B00F210A3 /* Debug */,
+				B8FF731217FC346B00F210A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FF731317FC346B00F210A3 /* Build configuration list for PBXNativeTarget "TimeZones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FF731417FC346B00F210A3 /* Debug */,
+				B8FF731517FC346B00F210A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8FF731617FC346B00F210A3 /* Build configuration list for PBXNativeTarget "TimeZonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FF731717FC346B00F210A3 /* Debug */,
+				B8FF731817FC346B00F210A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FF72D317FC346A00F210A3 /* Project object */;
+}
